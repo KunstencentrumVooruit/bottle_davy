@@ -1,0 +1,29 @@
+body {
+    		background-image:url('/static/twitterwall/images/TwitterAchtergrond1920.jpg');
+    		background-repeat:no-repeat;
+    		background-size:cover;
+    		font-family: Vooruit;
+    	}
+@font-face {
+			font-family: Vooruit;
+			src: url("/static/twitterwall/images/HELVNBCB.TTF");
+		}  
+.pos_user {
+    position: fixed;
+    top: 300px;
+    left: 480px;
+    width: 1250px;
+    font-family: Vooruit;
+    font-size: 50;
+    font-weight:bold;
+    
+}
+
+.pos_tweet {
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    font-family: Vooruit;
+    font-size: 45;
+    font-weight:bold;
+}

@@ -1,0 +1,112 @@
+body {
+
+	background-image: url("/static/dagklapper/images/dagklapper.png"); background-repeat: no-repeat;
+	font-family: Vooruit; 
+}
+
+@font-face {
+			font-family: Vooruit;
+			src: url("/static/dagklapper/images/HELVNBCB.TTF");
+		}
+#ticker	{
+		font-family: Vooruit;
+		font-size: 70px;
+		color: red;
+		position:fixed;
+		top:1530px;
+		width: 1080px;
+		height: 285px;
+		border: 2px solid;
+		display: table;
+}
+.container{
+		/*border: 2px solid;*/
+		position: fixed;
+		font-size: 40px;
+		display: table;
+}
+.datum {
+		font-family: Vooruit;
+		font-size: 50px;
+		color: black;
+		position:absolute;
+		top:170px;
+}
+.center {
+		text-align:center;
+		display: table-cell;
+		vertical-align: middle;
+}
+#container1Links	{
+		top: 285px;
+		width: 250px;
+		height: 190px;
+}
+
+#container1Rechts	{
+		top: 285px;
+		width: 780px;
+		height: 190px;
+		left: 280px;
+}
+#container2Links	{
+		top: 485px;
+		width: 250px;
+		height: 190px;
+}
+
+#container2Rechts	{
+		top: 485px;
+		width: 780px;
+		height: 190px;
+		left: 280px;
+}
+#container3Links	{
+		top: 690px;
+		width: 250px;
+		height: 190px;
+}
+
+#container3Rechts	{
+		top: 690px;
+		width: 780px;
+		height: 190px;
+		left: 280px;
+}
+#container4Links	{
+		top: 900px;
+		width: 250px;
+		height: 190px;
+}
+
+#container4Rechts	{
+		top: 900px;
+		width: 780px;
+		height: 190px;
+		left: 280px;
+}
+#container5Links	{
+		top: 1115px;
+		width: 250px;
+		height: 190px;
+}
+
+#container5Rechts	{
+		top: 1115px;
+		width: 780px;
+		height: 190px;
+		left: 280px;
+}
+#container6Links	{
+		top: 1320px;
+		width: 250px;
+		height: 190px;
+}
+
+#container6Rechts	{
+		top: 1320px;
+		width: 780px;
+		height: 190px;
+		left: 280px;
+}
+

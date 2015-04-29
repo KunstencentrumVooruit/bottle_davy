@@ -1,0 +1,59 @@
+@font-face {
+			font-family: Vooruit;
+			src: url("/static/dagklapper/images/HELVNBCB.TTF");
+		}
+
+body {
+	font-family: Vooruit; 
+}
+
+#header	{
+    	color:white;
+    	text-align:center;
+   	margin-left: auto;
+    	margin-right: auto;
+}
+
+#artwork	{
+	background-color:#C8E3FF;	    	
+	color:white;
+	height:50px;
+    	text-align:center;
+   	margin-left: auto;
+    	margin-right: auto;
+}
+
+#blanco	{
+	background-color:white;	    	
+	color:white;
+	height:20px;
+    	text-align:center;
+   	margin-left: auto;
+    	margin-right: auto;
+}
+#insta_logo	{
+	
+	width:50px;
+   	margin-left: auto;
+    	margin-right: auto;
+}
+#instagram	{
+	text-align:center;
+}
+#instagram_image	{
+	
+	border: 2px solid;
+    	border-radius: 25px;
+	margin-left: auto;
+    	margin-right: auto;	
+	
+}
+#captions	{
+	
+	margin-left: auto;
+    	margin-right: auto;	
+	font-family: Vooruit;
+	font-size: 65px;
+text-align:center;
+
+}

@@ -1,0 +1,58 @@
+body {
+    		background-image:url('/static/nowplaying/images/banner_muziek5.jpg');
+    		background-repeat:no-repeat;
+    		background-size:auto;
+    		font-family: Vooruit;
+
+    	}
+@font-face {
+			font-family: Vooruit;
+			src: url("/static/nowplaying/images/HELVNBCB.TTF");
+		} 
+.center {    text-align: center; }
+.left {    float: left; }
+.right {   float: right; }
+.rewrind_header  {width: 75%;margin-left: auto ;
+  margin-right: auto ;}
+.nowplaying {
+    /*position: fixed;*/
+    top: 200px;
+    left: 300px;
+    width: 100%;
+    font-family: Vooruit;
+    font-size: 76px;
+    font-weight:bold;
+    color: red;
+    
+}
+.rewind_header {
+    
+    /*position: fixed;*/
+    
+    top: 500px;
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    font-family: Vooruit;
+    font-size: 52px;
+    font-weight:bold;
+    color: #D6EBD6;
+}
+.rewind_body {
+    position: relative;
+    border: 1px solid;
+    border-radius: 25px;
+    top: 150px;
+    /*left: 500px;*/
+    font-family: Vooruit;
+    font-size: 52px;
+    font-weight:bold;
+    color: #99CC99;
+}
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    /* width and height can be anything, as long as they're equal */
+}
+

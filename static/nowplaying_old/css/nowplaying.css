@@ -1,0 +1,30 @@
+body {
+    		background-image:url('/static/nowplaying/images/banner_muziek5.jpg');
+    		background-repeat:no-repeat;
+    		background-size:cover;
+    		font-family: Vooruit;
+
+    	}
+@font-face {
+			font-family: Vooruit;
+			src: url("/static/nowplaying/HELVNBCB.TTF");
+		}  
+.ticker {
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    font-family: Vooruit;
+    font-size: 76;
+    font-weight:bold;
+    color: red;
+}
+
+.pos_tweet {
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    font-family: Vooruit;
+    font-size: 36;
+    font-weight:bold;
+}
